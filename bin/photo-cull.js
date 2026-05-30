@@ -300,7 +300,8 @@ textarea{width:min(900px,calc(100vw - 40px));height:120px;margin-top:10px}
 <header>
   <h1>Local AI Photo Culler Review</h1>
   <p>${manifest.summary.deleteCandidateCount} staged out of ${manifest.summary.scannedCount} scanned. Review carefully, then copy selected IDs.</p>
-  <p>Delete command: <code>photo-cull delete --manifest ${escapeHtml(path.basename(manifest.manifestPath))} --ids-file selected-delete-ids.txt</code></p>
+  <p>After reviewing, save <code>selected-delete-ids.txt</code>, then run:</p>
+  <p><code>photo-cull delete --manifest "${escapeHtml(manifest.manifestPath)}" --ids-file selected-delete-ids.txt --yes</code></p>
   <div class="bar">
     <button onclick="setAll(true)">Select all</button>
     <button onclick="setAll(false)">Select none</button>

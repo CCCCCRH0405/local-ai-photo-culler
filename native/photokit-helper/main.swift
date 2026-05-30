@@ -94,7 +94,7 @@ func option(_ name: String) -> String? {
 /// Calls `work` with a usable status. Only `request-auth` is allowed to trigger
 /// the system prompt; every other command reports `not_authorized` and exits so
 /// it can never hang waiting on a dialog.
-func ensureAuthorized(allowPrompt: Bool, _ work: @escaping (PHAuthorizationStatus) -> Void) {
+@Sendable func ensureAuthorized(allowPrompt: Bool, _ work: @escaping @Sendable (PHAuthorizationStatus) -> Void) {
   let status = PHPhotoLibrary.authorizationStatus(for: .readWrite)
   if status == .authorized || status == .limited {
     work(status)
@@ -135,7 +135,7 @@ func runAuthStatus(prompt: Bool) {
   }
 }
 
-func fetchPredicate(after: Date?, before: Date?, screenshotsOnly: Bool) -> NSPredicate? {
+@Sendable func fetchPredicate(after: Date?, before: Date?, screenshotsOnly: Bool) -> NSPredicate? {
   var parts: [NSPredicate] = []
   if let after = after { parts.append(NSPredicate(format: "creationDate > %@", after as NSDate)) }
   if let before = before { parts.append(NSPredicate(format: "creationDate <= %@", before as NSDate)) }
