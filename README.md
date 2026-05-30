@@ -65,7 +65,7 @@ Other Ollama vision models should work if they support image input through
 ## Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/CCCCCRH0405/local-ai-photo-culler.git
 cd local-ai-photo-culler
 npm run build:helper
 npm link
@@ -177,8 +177,8 @@ This repo includes the basics expected by most open-source projects:
 - `CONTRIBUTING.md` and `SECURITY.md`.
 - Optional Codex skill wrapper.
 
-Before publishing, replace `<your-repo-url>` with the real GitHub URL and add a
-screenshot of `review.html` after your first local scan.
+Add a screenshot of `review.html` after your first local scan to make the README
+more inviting.
 
 ## Safety Notes
 
