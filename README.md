@@ -6,7 +6,11 @@ This tool asks a local Ollama vision model to **pre-screen** your Apple Photos
 library for obvious deletion candidates, then gives you a browser-based review
 page for the human second pass. Nothing is uploaded to a cloud model.
 
-![Demo review screen](docs/review-demo.svg)
+![Illustrative demo review screen](docs/review-demo.svg)
+
+Illustrative demo only. A real scan generates the same kind of browser review
+page, but the actual thumbnails, filenames, reasons, and counts come from your
+own local Photos library.
 
 ## Does It Need a Client?
 
