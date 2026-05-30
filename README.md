@@ -22,9 +22,9 @@ Local AI Photo Culler is a command-line tool. It talks directly to:
 - Ollama through its local HTTP API, normally `http://127.0.0.1:11434`.
 - Your normal browser for the generated `review.html` page.
 
-You do not need to connect it to Greyson, Codex, iCloud, Google Photos, OpenAI,
-Claude, Gemini, or any cloud model. The included Codex skill wrapper is optional
-for people who want to run the workflow from an agent.
+You do not need to connect it to a desktop assistant, iCloud, Google Photos,
+OpenAI, Claude, Gemini, or any cloud model. The included Codex skill wrapper is
+optional for people who want to run the workflow from an agent.
 
 It is intentionally cautious:
 

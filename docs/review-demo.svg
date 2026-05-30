@@ -20,7 +20,7 @@
       <text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">stage</text>
       <rect x="0" y="48" width="250" height="116" fill="#eceff4"/>
       <rect x="54" y="72" width="142" height="68" rx="8" fill="#cfd6e2"/>
-      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">IMG_1042.JPG</text>
+      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">example-blurry.jpg</text>
       <text x="16" y="211" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#b42318">high-confidence blurry photo</text>
     </g>
     <g transform="translate(276 0)">
