@@ -28,6 +28,7 @@
   "files": [
     "bin/",
     "scripts/",
+    "docs/",
     "native/photokit-helper/main.swift",
     "codex-skill/",
     "README.md",

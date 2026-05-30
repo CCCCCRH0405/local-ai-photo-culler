@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Demo review screen for Local AI Photo Culler">
+  <rect width="1200" height="760" fill="#f6f7f9"/>
+  <rect x="0" y="0" width="1200" height="160" fill="#ffffff"/>
+  <rect x="0" y="159" width="1200" height="1" fill="#dfe3ea"/>
+  <text x="34" y="48" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="28" font-weight="700" fill="#16181d">Local AI Photo Culler Review</text>
+  <text x="34" y="82" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="17" fill="#59606c">5 staged out of 12 scanned. Review carefully, then save selected IDs.</text>
+  <rect x="34" y="105" width="92" height="34" rx="8" fill="#ffffff" stroke="#ccd2dc"/>
+  <text x="54" y="127" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">Select all</text>
+  <rect x="138" y="105" width="100" height="34" rx="8" fill="#ffffff" stroke="#ccd2dc"/>
+  <text x="158" y="127" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">Select none</text>
+  <rect x="250" y="105" width="146" height="34" rx="8" fill="#ffffff" stroke="#ccd2dc"/>
+  <text x="270" y="127" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">Copy selected IDs</text>
+  <rect x="408" y="105" width="205" height="34" rx="8" fill="#ffffff" stroke="#ccd2dc"/>
+  <text x="428" y="127" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">Download selected IDs</text>
+
+  <g transform="translate(34 190)">
+    <g>
+      <rect width="250" height="230" rx="12" fill="#ffffff" stroke="#e59a9a"/>
+      <rect x="16" y="16" width="16" height="16" rx="3" fill="#d92d20"/>
+      <text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">stage</text>
+      <rect x="0" y="48" width="250" height="116" fill="#eceff4"/>
+      <rect x="54" y="72" width="142" height="68" rx="8" fill="#cfd6e2"/>
+      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">IMG_1042.JPG</text>
+      <text x="16" y="211" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#b42318">high-confidence blurry photo</text>
+    </g>
+    <g transform="translate(276 0)">
+      <rect width="250" height="230" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+      <rect x="16" y="16" width="16" height="16" rx="3" fill="#ffffff" stroke="#9aa4b2"/>
+      <text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">stage</text>
+      <rect x="0" y="48" width="250" height="116" fill="#eceff4"/>
+      <circle cx="125" cy="106" r="38" fill="#c6d8ef"/>
+      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">Vacation photo</text>
+      <text x="16" y="211" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#59606c">keep - travel, clear subject</text>
+    </g>
+    <g transform="translate(552 0)">
+      <rect width="250" height="230" rx="12" fill="#ffffff" stroke="#e59a9a"/>
+      <rect x="16" y="16" width="16" height="16" rx="3" fill="#d92d20"/>
+      <text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">stage</text>
+      <rect x="0" y="48" width="250" height="116" fill="#eceff4"/>
+      <rect x="74" y="66" width="102" height="84" rx="7" fill="#d7dde7"/>
+      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">Screenshot</text>
+      <text x="16" y="211" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#b42318">no clear save value</text>
+    </g>
+    <g transform="translate(828 0)">
+      <rect width="250" height="230" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+      <rect x="16" y="16" width="16" height="16" rx="3" fill="#ffffff" stroke="#9aa4b2"/>
+      <text x="40" y="30" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="14" fill="#16181d">stage</text>
+      <rect x="0" y="48" width="250" height="116" fill="#eceff4"/>
+      <path d="M52 140 L112 84 L146 118 L172 92 L210 140 Z" fill="#c8d8cb"/>
+      <text x="16" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15" font-weight="700" fill="#16181d">Landscape</text>
+      <text x="16" y="211" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="13" fill="#59606c">keep - scenery</text>
+    </g>
+  </g>
+  <g transform="translate(34 450)">
+    <rect width="1080" height="210" rx="12" fill="#ffffff" stroke="#dfe3ea"/>
+    <text x="22" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="18" font-weight="700" fill="#16181d">Safe by default</text>
+    <text x="22" y="76" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#59606c">Local model pre-screen - human second pass - recoverable delete</text>
+    <text x="22" y="112" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="16" fill="#59606c">Favorites are protected. No cloud model is called.</text>
+    <rect x="22" y="140" width="850" height="38" rx="8" fill="#f2f4f7"/>
+    <text x="40" y="164" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13" fill="#344054">photo-cull delete --manifest reports/run-.../manifest.json --ids-file selected-delete-ids.txt --yes</text>
+  </g>
+</svg>
