@@ -1,0 +1,42 @@
+{
+  "name": "local-ai-photo-culler",
+  "version": "0.1.0",
+  "description": "Privacy-first Apple Photos culling with local vision models and human review.",
+  "type": "module",
+  "author": "Local AI Photo Culler contributors",
+  "os": [
+    "darwin"
+  ],
+  "bin": {
+    "photo-cull": "./bin/photo-cull.js"
+  },
+  "scripts": {
+    "build:helper": "bash scripts/build-photokit-helper.sh",
+    "auth": "node bin/photo-cull.js auth",
+    "scan": "node bin/photo-cull.js scan",
+    "delete": "node bin/photo-cull.js delete",
+    "check": "node --check bin/photo-cull.js && bash -n scripts/build-photokit-helper.sh"
+  },
+  "keywords": [
+    "apple-photos",
+    "ollama",
+    "local-ai",
+    "privacy",
+    "photo-culling",
+    "vision-language-model"
+  ],
+  "files": [
+    "bin/",
+    "scripts/",
+    "native/photokit-helper/main.swift",
+    "codex-skill/",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

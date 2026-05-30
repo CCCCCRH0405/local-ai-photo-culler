@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+.npm-cache/
+out/
+reports/
+.build/
+native/photokit-helper/photokit-helper
