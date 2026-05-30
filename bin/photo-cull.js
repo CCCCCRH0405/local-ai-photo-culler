@@ -484,6 +484,18 @@ async function main() {
     usage()
     return
   }
+  // macOS only: this tool reads and edits the Apple Photos library through a
+  // PhotoKit helper, and relies on Apple's "Recently Deleted" album for
+  // recoverable deletes. None of that exists on Windows or Linux, so fail fast
+  // with a clear message instead of a confusing swiftc/helper error.
+  if (process.platform !== 'darwin' && ['auth', 'scan', 'delete'].includes(command)) {
+    console.error(
+      'local-ai-photo-culler runs on macOS only. It operates on the Apple Photos\n' +
+        'library through PhotoKit, which does not exist on Windows or Linux, and\n' +
+        'recoverable deletes depend on the Apple Photos "Recently Deleted" album.'
+    )
+    process.exit(1)
+  }
   if (command === 'auth') return auth(args)
   if (command === 'scan') return scan(args)
   if (command === 'delete') return deletePhotos(args)

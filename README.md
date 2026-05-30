@@ -43,6 +43,12 @@ shots, accidental captures, and obvious junk where cloud upload is not worth it.
 
 ## Requirements
 
+> **macOS only.** This tool reads and edits the **Apple Photos** library through
+> a PhotoKit helper, and depends on the Apple Photos "Recently Deleted" album for
+> recoverable deletes. It does **not** run on Windows or Linux — there is no
+> Apple Photos / PhotoKit there. On a non-macOS system `npm install` is blocked
+> by the `os` field and the commands exit with a clear message.
+
 - macOS with Apple Photos.
 - Node.js 20 or newer.
 - Xcode Command Line Tools (`xcode-select --install`).
